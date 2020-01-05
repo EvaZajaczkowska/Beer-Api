@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  align-items: center; 
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(53, 167, 224);
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+nav a {
+  color:black;
+}
